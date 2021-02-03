@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		04F19E4225CA7BBB00B47059 /* TestDemo1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F19E4025CA7BBB00B47059 /* TestDemo1.xcdatamodeld */; };
 		04F19E4425CA7BC300B47059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F19E4325CA7BC300B47059 /* Assets.xcassets */; };
 		04F19E4725CA7BC300B47059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F19E4525CA7BC300B47059 /* LaunchScreen.storyboard */; };
+		04F19E7B25CA8EEC00B47059 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F19E7A25CA8EEC00B47059 /* SecondViewController.swift */; };
 		16A47D06DE8A35C896E91B45 /* Pods_TestDemo1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF0F54342B96E192A58C4B1 /* Pods_TestDemo1.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		04F19E4325CA7BC300B47059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F19E4625CA7BC300B47059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F19E4825CA7BC300B47059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F19E7A25CA8EEC00B47059 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0EF21D95905E69531B2DCA3F /* Pods-TestDemo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo1.release.xcconfig"; path = "Target Support Files/Pods-TestDemo1/Pods-TestDemo1.release.xcconfig"; sourceTree = "<group>"; };
 		138107660FD88973896AF82F /* Pods-TestDemo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDemo1.debug.xcconfig"; path = "Target Support Files/Pods-TestDemo1/Pods-TestDemo1.debug.xcconfig"; sourceTree = "<group>"; };
 		7BF0F54342B96E192A58C4B1 /* Pods_TestDemo1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestDemo1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				04F19E3725CA7BBB00B47059 /* AppDelegate.swift */,
 				04F19E3925CA7BBB00B47059 /* SceneDelegate.swift */,
 				04F19E3B25CA7BBB00B47059 /* ViewController.swift */,
+				04F19E7A25CA8EEC00B47059 /* SecondViewController.swift */,
 				04F19E3D25CA7BBB00B47059 /* Main.storyboard */,
 				04F19E4325CA7BC300B47059 /* Assets.xcassets */,
 				04F19E4525CA7BC300B47059 /* LaunchScreen.storyboard */,
@@ -91,7 +94,6 @@
 				138107660FD88973896AF82F /* Pods-TestDemo1.debug.xcconfig */,
 				0EF21D95905E69531B2DCA3F /* Pods-TestDemo1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 				04F19E4225CA7BBB00B47059 /* TestDemo1.xcdatamodeld in Sources */,
 				04F19E3C25CA7BBB00B47059 /* ViewController.swift in Sources */,
 				04F19E3825CA7BBB00B47059 /* AppDelegate.swift in Sources */,
+				04F19E7B25CA8EEC00B47059 /* SecondViewController.swift in Sources */,
 				04F19E3A25CA7BBB00B47059 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
