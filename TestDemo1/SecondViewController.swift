@@ -17,7 +17,7 @@ class SecondViewController: UIViewController {
         view.backgroundColor = .red
         let name = getName();
         
-        
+        print("-----------\(name)")
         
     }
     
