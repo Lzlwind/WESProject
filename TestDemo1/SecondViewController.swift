@@ -15,8 +15,18 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         view.backgroundColor = .red
+        let name = getName();
+        
+        
+        
     }
     
+    func getName() -> String {
+        let name = "这是名字"
+        
+        return name
+        
+    }
 
     /*
     // MARK: - Navigation
