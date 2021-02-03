@@ -16,6 +16,14 @@ class ViewController: UIViewController {
         
         return myLabel
     }()
+    
+    lazy var myLabel2: UILabel = {
+        let myLabel = UILabel.init(frame: CGRect(x: 100, y: 200, width: 60, height: 30))
+        myLabel.text = "新增label";
+        myLabel.textColor = UIColor.green
+        
+        return myLabel
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +31,8 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.white
         
         view.addSubview(self.myLabel)
+        
+        view.addSubview(self.myLabel2)
         
     }
 
