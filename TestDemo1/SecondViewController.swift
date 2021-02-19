@@ -23,6 +23,8 @@ class SecondViewController: UIViewController {
         let num = 123;
         let aa = "main"
         
+        let haha = aa + "\(num)"
+        print(haha)
         
     }
     
