@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         
         view.addSubview(self.myLabel2)
         
+        print("你好呀")
+        
     }
 
 
