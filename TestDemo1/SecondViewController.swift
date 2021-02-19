@@ -19,6 +19,11 @@ class SecondViewController: UIViewController {
         
         print("-----------\(name)")
         
+        
+        let num = 123;
+        let aa = "main"
+        
+        
     }
     
     func getName() -> String {
